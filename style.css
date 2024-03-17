@@ -1,0 +1,52 @@
+/* Your existing CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+h1 {
+    color: #161212;
+    text-align: center;
+}
+
+.game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.background-container {
+    background-image: url('2.jpg'); /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Adjust the height to fit your content */
+   
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rest of your existing CSS styles */
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #0c0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
